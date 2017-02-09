@@ -141,11 +141,8 @@ module.exports = function (grunt) {
 
             },
             styles: {
-                files: ['src/styles/scss/compiled.scss', 'src/styles/scss/fonts.scss'],
-                tasks: ['styles'],
-                options: {
-                    livereload: true
-                }
+                files: ['src/styles/scss/**/*.scss'],
+                tasks: ['styles']
             },
             html: {
                 files: ['src/html/**/*.html', 'src/styles/scss/header.scss'],
