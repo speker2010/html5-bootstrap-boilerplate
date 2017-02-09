@@ -142,7 +142,7 @@ module.exports = function (grunt) {
             },
             styles: {
                 files: ['src/styles/scss/**/*.scss'],
-                tasks: ['styles']
+                tasks: ['styles', 'html']
             },
             html: {
                 files: ['src/html/**/*.html', 'src/styles/scss/header.scss'],
