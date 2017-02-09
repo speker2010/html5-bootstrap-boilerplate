@@ -191,7 +191,7 @@ module.exports = function (grunt) {
     grunt.registerTask('html', ['sass:header', 'clean:html', 'includereplace:html', 'htmllint', 'scsslint']);
     grunt.registerTask('styles', ['scsslint', 'sass:fonts', 'sass:main']);
     grunt.registerTask('images', ['imagemin']);
-    grunt.registerTask('build', ['clean:dist', 'images', 'html', 'styles', 'copy:fonts', 'scripts']);
+    grunt.registerTask('build', ['clean:build', 'images', 'html', 'styles', 'copy:fonts', 'scripts']);
 
 };
 
