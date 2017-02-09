@@ -1,0 +1,23 @@
+{
+  "name": "start_html",
+  "description": "sass, grunt, bower, jquery",
+  "main": "Gruntfile.js",
+  "authors": [
+    "speker"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/speker2010/start_html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jquery": "^3.1.1",
+    "normalize-css": "normalize.css#^5.0.0",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
